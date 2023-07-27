@@ -1,11 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/root.css" />
+    <link rel="stylesheet" href="./CSS/header.css" />
+    <link rel="stylesheet" href="./CSS/nav.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/footer.css" />
     <title>HTML CSS CHEATSHEET</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <header>
+            <h1>CHEATSHEET</h1>
+            <h2>HTML & CSS</h2>
+          </header>
+        </li>
+        <li><a>HTML</a></li>
+        <li><a>Element Content</a></li>
+        <li><a>List item Element</a></li>
+        <li><a>Video Element</a></li>
+        <li><a>Emphasis Element</a></li>
+        <li><a>Ordered List Element</a></li>
+        <li><a>Div Element</a></li>
+        <li><a>HTML Structure</a></li>
+        <li><a>Closing Tag</a></li>
+        <li><a>Attribute Name and Values</a></li>
+        <li><a>Image Element</a></li>
+        <li><a>Heading Elements</a></li>
+        <li><a>Paragraph Element</a></li>
+        <li><a>Unique ID Attributes</a></li>
+        <li><a>HTML Attributes</a></li>
+        <li><a>Unordered List Element</a></li>
+        <li><a>alt Attribute</a></li>
+        <li><a>Body Element</a></li>
+        <li><a>Span Element</a></li>
+        <li><a>Strong Element</a></li>
+        <li><a>An HTML Element</a></li>
+        <li><a>HTML Tag</a></li>
+        <li><a>Anchor Element</a></li>
+        <li><a>Head Element</a></li>
+        <li><a>Target Attribute</a></li>
+        <li><a>Link to a Different Part of the Page #</a></li>
+        <li><a>The HTML Element</a></li>
+        <li><a>Comments</a></li>
+        <li><a>Whitespace</a></li>
+        <li><a>Title Element</a></li>
+        <li><a>File Path</a></li>
+        <li><a>Document Type Declaration</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>HTML</h2>
+          <p>
+            HTML (HyperText Markup Language) is used to give content to a web
+            page and instructs web browsers on how to structure that content.
+          </p>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Element Content</h2>
+          <p>
+            The content of an HTML element is the information between the
+            opening and closing tags of an element.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>&lth1>Codecademy is awesome! 🙂&lt/h1></code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltli> List Item Element</h2>
+          <p>The &ltli> list item element create list items inside:</p>
+          <ul class="topic-lists">
+            <li>Ordered lists</li>
+            <li>Unordered lists</li>
+          </ul>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre>
+
+&ltol>
+  &ltli>Head east on Prince St&lt/li>
+  &ltli>Turn left on Elizabeth&lt/li>
+&lt/ol>
+              
+&ltul>
+  &ltli>Cookies&lt/li>
+  &ltli>Milk&lt/li>
+&lt/ul>
+          </pre
+            >
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltvideo> Video Element</h2>
+          <p>
+            The video element embeds a media player for video playbakc. The src
+            attribute will contain the URL to the video. Adding the controls
+            attribute will display video controls in the media player.
+          </p>
+          <p>
+            <strong>Note:</strong> The content inside the opening and closing
+            tag is shown as a fallback in browsers that don’t support the
+            element.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre>
+              
+&ltvideo src="test-video.mp4" controls>
+  Video not supported
+&lt/video>              
+            </pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltem> Emphasis Element&lt/em></h2>
+          <p>
+            The em element emphasizes text and browsers will usually italicize
+            the emphasized text by default.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre>
+&ltp>This &ltem>word&lt/em> will be emphasized in italics.&lt/p>
+            </pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltol> Ordered List Element</h2>
+          <p>
+            The ol ordered list element creates a list of items in sequential
+            order. Each list item appears numbered by default.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltdiv> Div Element</h2>
+          <p>
+            The div element is used as a container that divides an HTML document
+            into sections and is short for “division”. div elements can contain
+            flow content such as headings, paragraphs, links, images, etc.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>HTML Structure</h2>
+          <p>
+            HTML is organized into a family tree structure. HTML elements can
+            have parents, grandparents, siblings, children, grandchildren, etc.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Closing Tag</h2>
+          <p>
+            An HTML closing tag is used to denote the end of an HTML element.
+            The syntax for a closing tag is a left angle bracket &lt followed by a
+            forward slash / then the element name and a right angle bracket to
+            close >.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Attribute Name and Values</h2>
+          <p>
+            HTML attributes consist of a name and a value using the following
+            syntax: name="value" and can be added to the opening tag of an HTML
+            element to configure or change the behavior of the element.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltbr> Line Break Element</h2>
+          <p>
+            The br line break element will create a line break in text and is
+            especially useful where a division of text is required, like in a
+            postal address. The line break element requires only an opening tag
+            and must not have a closing tag.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltimg> Image Element</h2>
+          <p>
+            HTML image img elements embed images in documents. The src attribute
+            contains the image URL and is mandatory. img is an empty element
+            meaning it should not have a closing tag.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&lth1>-&lth6> Heading Elements</h2>
+          <p>
+            HTML can use six different levels of heading elements. The heading
+            elements are ordered from the highest level h1 to the lowest level
+            h6.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltp> Paragraph Element</h2>
+          <p>The p paragraph element contains and displays a block of text.</p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Unique ID Attributes</h2>
+          <p>
+            In HTML, specific and unique id attributes can be assigned to
+            different elements in order to differentiate between them.<br /><br />
+            When needed, the id value can be called upon by CSS and JavaScript
+            to manipulate, format, and perform specific instructions on that
+            element and that element only. Valid id attributes should begin with
+            a letter and should only contain letters (a-Z), digits (0-9),
+            hyphens (-), underscores (_), and periods (.).
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>HTML Attributes</h2>
+          <p>
+            HTML attributes are values added to the opening tag of an element to
+            configure the element or change the element’s default behavior. In
+            the provided example, we are giving the p (paragraph) element a
+            unique identifier using the id attribute and changing the color of
+            the default text using the style attribute.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltul> Unordered List Element</h2>
+          <p>
+            The ul unordered list element is used to create a list of items in
+            no particular order. Each individual list item will have a bullet
+            point by default.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>alt Attribute</h2>
+          <p>
+            An img element can have alternative text via the alt attribute. The
+            alternative text will be displayed if an image fails to render due
+            to an incorrect URL, if the image format is not supported by the
+            browser, if the image is blocked from being displayed, or if the
+            image has not been received from the URL.<br /><br />
+            The text will be read aloud if screen reading software is used and
+            helps support visually impaired users by providing a text descriptor
+            for the image content on a webpage.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltbody> Body Element</h2>
+          <p>
+            The body element represents the content of an HTML document. Content
+            inside body tags are rendered on the web browsers.
+            <br /><br /><strong>Note:</strong>
+            There can be only one body element in a document.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltspan> Span Element</h2>
+          <p>
+            The span element is an inline container for text and can be used to
+            group text for styling purposes. However, as span is a generic
+            container to separate pieces of text from a larger body of text, its
+            use should be avoided if a more semantic element is available.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&ltstrong> Strong Element</h2>
+          <p>
+            The strong element highlights important, serious, or urgent text and
+            browsers will normally render this highlighted text in bold by
+            default.
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>HTML Element</h2>
+          <p>
+            An HTML element is a piece of content in an HTML document and uses
+            the following syntax: opening tag + content + closing tag. In the
+            code provided:
+            <ul class="topic-lists">
+              <li>&ltp> is the opening tag.</li>
+              <li><em>"Hello World!"</em> is the content.</li>
+              <li>&lt/p> is the closing tag.</li>
+            </ul>
+          </p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>HTML Tag</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&lta> Anchor Element</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&lthead> Head Element</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&lttarget> Target Attribute</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Indentation</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Link to a Different Part of the Page #</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&lthtml> HTML Element</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Comments</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Whitespace</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>&lttitle> Title Element</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>File Path</h2>
+          <p></p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+
+      <div class="topic-row">
+        <div class="topic-left">
+          <h2>Document Type Declaration</h2>
+          <p>The document type declaration !DOCTYPE html is required as the first line of an HTML document. The doctype declaration is an instruction to the browser about what type of document to expect and which version of HTML is being used, in this case it’s HTML5.</p>
+        </div>
+        <div class="topic-right">
+          <code>
+            <pre></pre>
+          </code>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

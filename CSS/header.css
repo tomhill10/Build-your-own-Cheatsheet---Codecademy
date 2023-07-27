@@ -1,0 +1,14 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    min-height: 80px;
+    height: 80px;
+    color: aliceblue;
+    background-color: rgb(22, 22, 50);
+    border-bottom: 1px solid gray;
+    letter-spacing: 2px;
+    gap: 20px;
+}
