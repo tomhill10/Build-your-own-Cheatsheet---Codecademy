@@ -1,7 +1,6 @@
 
 
 main {
-   
     margin-left: 300px;
     margin-bottom: 200px;
     padding: 0 50px;
@@ -48,8 +47,13 @@ align-items: flex-start;
 
 .topic-right code {
     color: white;
+    overflow-x:hidden;
 }
 
 .topic-lists {
     padding-left: 20px;
+}
+
+h4 a {
+    color: black;
 }
